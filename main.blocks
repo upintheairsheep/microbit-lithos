@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="r{Lrxl!BpylnurUZ%[Lf" x="0" y="0"></block><block type="device_forever" id="_khT85=~ff?kSUZgHvDA" x="432" y="54"><statement name="HANDLER"><block type="controls_if" id="Tdni7SK6DF?F!*DrFF6b"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="%eaA5Cli~B|KJ0{o^NV5"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="m+fZ8xP3d7X0S-yHwUD="></block></value><value name="B"><shadow type="math_number" id="v+2UEA)^vym[xUl=/Lg|"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_print_message" id="6Ki[`n)N}buCnF`,ldfq"><value name="text"><shadow type="text" id="88AIHV:P;mccr3ng~7`;"><field name="TEXT">?</field></shadow></value><next><block type="device_print_message" id="cA#/703A)U=iS}T;NCg_"><value name="text"><shadow type="text" id="w!SR[/,UBebQD}ejYEqp"><field name="TEXT">HOW? How did you get ZERO light source?</field></shadow></value><next><block type="device_clear_display" id="0h~1Tc|V%0Igq~g4Oz,+"></block></next></block></next></block></statement><statement name="ELSE"><block type="controls_if" id="qr*cs/fb)74+;hyDBCA4"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="L._IN:WCIQAJ:h,o^KKH"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="p3jUoa#1F^(|F{#y!IT%"></block></value><value name="B"><shadow type="math_number" id="Her8*D{5OVL)!*W4K!#m"><field name="NUM">250</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="75P=SLT$rY^bLF~0*~!6"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        . . # . . 
+        . # # # . 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="=^YzV^;${o-bQ+N(lU$:"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="6682{Wz!{xz}GpTswe,u"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="12:lT.J1$gCaeJX%vHHv"></block></value><value name="B"><shadow type="math_number" id="qUg^d*tbmt8~h*8]AtBy"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="a;fdKRHQ]j$MnHQ9zXZ_"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id=",?Pm#Smn/LVH;%HMN!SO"><next><block type="device_show_leds" id="-4#T!W)5^C.Fj`fqmX:_"><field name="LEDS">`
+        . . # # . 
+        . # # . # 
+        # # . # # 
+        . # # . # 
+        . . # # .
+        `</field></block></next></block></statement></block></statement></block></statement></block></statement></block><block type="device_button_event" id="xxyO9(OopJyhkU^w*A%=" x="10" y="187"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_number" id="xQx0M)zf4_aBS88F+X8r"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="/^]0`_8;_U96!-[w7y5x"></block></value></block></statement></block><block type="device_print_message" id="Q0kwL+P9}ewS;ke4/0#p" disabled="true" x="44" y="401"><value name="text"><shadow type="text" id=";x]i-}LDR*)eg~JW~YdQ" disabled="true"><field name="TEXT">Comment: volcano inferno</field></shadow></value></block></xml>
